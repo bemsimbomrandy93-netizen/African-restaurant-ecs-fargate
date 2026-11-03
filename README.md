@@ -86,6 +86,22 @@ Same reason. A MySQL container in ECS would get a new IP every restart, breaking
 
 ---
 
+## 📸 Screenshots
+
+**The restaurant app** — customers choose a dish and click **Place Order**.
+
+![African Restaurant app ordering page](images/app-screenshot.png)
+
+**Prometheus** — the `restaurant-backend` target shows **UP**, which means Prometheus is successfully collecting metrics from the backend.
+
+![Prometheus targets page showing restaurant-backend 1/1 up](images/prometheus-targets.png)
+
+**Grafana** — the "Restaurant App Monitoring" dashboard showing live backend CPU and memory usage.
+
+![Grafana dashboard showing backend CPU and memory usage](images/grafana-dashboard.png)
+
+---
+
 ## 📁 Repository Structure
 
 ```
